@@ -59,20 +59,4 @@ body {
             }
         }
     }
-
-    .title {
-        position: absolute;
-        width: 100%;
-        top: 40%;
-        transform: translateX(50%);
-        font-size: 100px;
-        color: black;
-        font-weight: 800;
-        
-        .media {
-            padding: 30px;
-            background: white;
-            opacity: 0.8;
-        }
-    }
 }

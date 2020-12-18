@@ -62,21 +62,4 @@ body button.twt i {
 body button.itg i {
   color: purple;
 }
-
-body .title {
-  position: absolute;
-  width: 100%;
-  top: 40%;
-  -webkit-transform: translateX(50%);
-          transform: translateX(50%);
-  font-size: 100px;
-  color: black;
-  font-weight: 800;
-}
-
-body .title .media {
-  padding: 30px;
-  background: white;
-  opacity: 0.8;
-}
 /*# sourceMappingURL=style.css.map */
