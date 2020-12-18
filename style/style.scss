@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: flex-start;
+    background: url('../assets/pexels-juan-733475.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    button {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 40px;
+        background: #9b9393;
+        width: 300px;
+        text-align: right;
+        font-size: 1.5rem;
+        color: white;
+        letter-spacing: 1.5;
+        margin-left: -250px;
+        transition: margin-left 0.8s, opacity 0.8s;
+        opacity: 0.5;
+        border: none;
+
+        i {
+            margin-left: 20px;
+        }
+
+        &:hover {
+            margin-left: -100px;
+            opacity: 0.75;
+        }
+
+        &.fbk {
+            i {
+                color: rgb(70, 70, 199);
+            }
+        }
+
+        &.ytb {
+            i {
+                color: red;
+            }
+        }
+
+        &.twt {
+            i {
+                color: lightblue;
+            }
+        }
+
+        &.itg {
+            i {
+                color: purple;
+            }
+        }
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        transform: translateX(50%);
+        font-size: 100px;
+        color: black;
+        font-weight: 800;
+        
+        .media {
+            padding: 30px;
+            background: white;
+            opacity: 0.8;
+        }
+    }
+}
